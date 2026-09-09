@@ -1,6 +1,7 @@
 
 class Pgm1 {
 
+    // string concatination
     public static void main(String[] args) {
         String s1 = "raja";
         String s2 = "rani";
