@@ -1,5 +1,6 @@
 
 public class Pgm3 {
+// inrest at specific position delete reverse
 
     public static void main(String[] args) {
         StringBuilder sb1 = new StringBuilder("java");
