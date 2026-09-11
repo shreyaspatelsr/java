@@ -1,5 +1,7 @@
 
 public class Pgm1 {
+// turnary operator
+// condition?expr1:expr2
 
     public static void main(String[] args) {
         int a = 20;
