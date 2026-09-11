@@ -7,7 +7,7 @@ public class Pgm4 {
         System.out.println(sb);
         String res = sb.toString();
         System.out.println(res);
-        res.concat("rani");
+        res = res.concat("rani");
         System.out.println(res);
     }
 }

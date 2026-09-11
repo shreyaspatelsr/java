@@ -1,6 +1,6 @@
 
 public class Pgm2 {
-// allocating capacity
+// allocating capacity 
 
     public static void main(String[] args) {
         StringBuilder sb1 = new StringBuilder("java");
