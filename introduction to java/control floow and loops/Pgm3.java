@@ -1,5 +1,6 @@
 
 public class Pgm3 {
+    // post increment and pre increment
 
     public static void main(String[] args) {
         int a = 20;
