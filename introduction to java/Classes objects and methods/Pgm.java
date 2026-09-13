@@ -18,7 +18,14 @@ public class Pgm {
         System.out.println(s1.name);
         System.out.println(s1.age);
         System.out.println(s1.height);
+        //this line print the address of the object in memory
         System.out.println(s1);
+        // if no value is given the it will print default value.
+        // int -> 0
+        // float -> 0.0f
+        // boolean -> false
+        // char -> \u0000
+        // String -> null
         s2.run();
         s2.sleep();
         System.out.println(s2.roll);
