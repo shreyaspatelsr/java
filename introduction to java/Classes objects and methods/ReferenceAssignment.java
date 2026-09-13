@@ -1,5 +1,7 @@
 
 public class ReferenceAssignment {
+    // reference variable assignment
+    // when ref2 = ref1 then both ref variable point to same object.
 
     public static void main(String[] args) {
         employee e1 = new employee();
