@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class LoopAndArray2 {
+public class LoopAndArray3 {
 
     public static void main(String[] agrs) {
         Scanner sc = new Scanner(System.in);
@@ -12,10 +12,10 @@ public class LoopAndArray2 {
         }
 
         int b[] = new int[a.length];
-        //int j = 0;
-        for (int i = 0; i <= a.length - 1; i++) {
-            b[i] = a[i];
-            //j++;
+        int j = 0;
+        for (int i = a.length - 1; i >= 0; i--) {
+            b[j] = a[i];
+            j++;
 
         }
         for (int i = 0; i < b.length; i++) {
