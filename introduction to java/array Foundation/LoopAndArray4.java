@@ -21,6 +21,7 @@ public class LoopAndArray4 {
         for (int i = 0; i < b.length; i++) {
             System.out.println(b[i]);
         }
+        // assignment of the reference variable
         int c[] = a;
         System.out.println(c[3]);
     }
