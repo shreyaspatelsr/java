@@ -4,6 +4,11 @@ import java.util.Scanner;
 public class pgm1 {
 
     public static void main(String[] args) {
+        int arr1[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        arr1[4] = 1000;
+        for (int i = 0; i <= arr1.length - 1; i++) {
+            System.out.println(arr1[i]);
+        }
         SumOfArray a1 = new SumOfArray();
         System.out.println("Enter the Size of array elements:");
         Scanner sc = new Scanner(System.in);
@@ -33,9 +38,3 @@ class SumOfArray {
         return sum;
     }
 }
-
-
-
-
-    
-    
