@@ -10,7 +10,7 @@ public class MaxMin {
         int arr[] = new int[size];
         System.out.println("enter the array elements");
         for (int i = 0; i <= size - 1; i++) {
-            System.out.println("enter the " + i + "index element of the array");
+            System.out.println("enter the " + (i + 1) + " position element of the array");
             arr[i] = scan.nextInt();
 
         }
@@ -26,7 +26,7 @@ public class MaxMin {
 class CalMinMax {
 
     int min(int arr[]) {
-        int min = arr[1];
+        int min = arr[0];
         for (int i = 0; i <= arr.length - 1; i++) {
             if (min > arr[i]) {
                 min = arr[i];
@@ -36,7 +36,7 @@ class CalMinMax {
     }
 
     int max(int arr[]) {
-        int max = 0;
+        int max = arr[0];
         for (int i = 0; i <= arr.length - 1; i++) {
             if (max < arr[i]) {
                 max = arr[i];
